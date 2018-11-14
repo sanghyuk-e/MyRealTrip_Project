@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CardCollectionViewCell" id="gTV-IL-0wX" customClass="CardCollectionViewCell" customModule="MyRealTrip" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="634" height="140"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="634" height="140"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gc-lY-f5D">
+                        <rect key="frame" x="140" y="20" width="98.333333333333314" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rVx-KD-t3K">
+                        <rect key="frame" x="139" y="43" width="440" height="42"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <string key="text">Title Label
+titlelabel</string>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Review Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9q6-3r-2xq">
+                        <rect key="frame" x="140" y="102" width="90" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="06n-J0-YGV">
+                        <rect key="frame" x="604" y="0.0" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="HLp-VP-Jhe"/>
+                            <constraint firstAttribute="height" constant="30" id="sfp-bS-KTd"/>
+                        </constraints>
+                        <state key="normal" image="icons8-heart-outline-50"/>
+                        <connections>
+                            <action selector="heartButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="2sP-CF-m44"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wak-ma-gcg">
+                        <rect key="frame" x="20" y="20" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="Jqi-Tt-AQW"/>
+                            <constraint firstAttribute="width" constant="100" id="Vss-QP-6Ee"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tourname Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywF-HJ-oVg">
+                        <rect key="frame" x="139" y="82" width="440" height="18"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Price Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkH-9k-wpm">
+                        <rect key="frame" x="462" y="99" width="85" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="wak-ma-gcg" secondAttribute="bottom" constant="20" id="GUg-nN-cI3"/>
+                <constraint firstItem="9q6-3r-2xq" firstAttribute="bottom" secondItem="wak-ma-gcg" secondAttribute="bottom" id="GhY-zm-nqU"/>
+                <constraint firstItem="wak-ma-gcg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="20" id="T5D-3e-IFp"/>
+                <constraint firstItem="9q6-3r-2xq" firstAttribute="leading" secondItem="wak-ma-gcg" secondAttribute="trailing" constant="20" id="X5D-b5-out"/>
+                <constraint firstItem="wak-ma-gcg" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="dAU-Q1-dEn"/>
+                <constraint firstItem="06n-J0-YGV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="goz-fA-83u"/>
+                <constraint firstAttribute="trailing" secondItem="06n-J0-YGV" secondAttribute="trailing" id="nYq-6S-eMc"/>
+                <constraint firstItem="06n-J0-YGV" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qh8-as-AX6"/>
+                <constraint firstItem="6gc-lY-f5D" firstAttribute="top" secondItem="wak-ma-gcg" secondAttribute="top" id="qqj-mY-ryh"/>
+                <constraint firstItem="6gc-lY-f5D" firstAttribute="leading" secondItem="wak-ma-gcg" secondAttribute="trailing" constant="20" id="sAH-pd-r1w"/>
+                <constraint firstAttribute="trailing" secondItem="06n-J0-YGV" secondAttribute="trailing" id="yyw-19-s6L"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="634" height="142"/>
+            <connections>
+                <outlet property="categoryLabel" destination="6gc-lY-f5D" id="Cyb-we-osw"/>
+                <outlet property="heartButton" destination="06n-J0-YGV" id="bzN-Uh-GAc"/>
+                <outlet property="priceLabel" destination="pkH-9k-wpm" id="8YA-yn-cZP"/>
+                <outlet property="reviewLabel" destination="9q6-3r-2xq" id="J7T-ok-MlF"/>
+                <outlet property="thumbnailImage" destination="wak-ma-gcg" id="Veh-CD-la9"/>
+                <outlet property="titleLabel" destination="rVx-KD-t3K" id="FyJ-Vd-msK"/>
+                <outlet property="tournameLabel" destination="ywF-HJ-oVg" id="4ar-hh-nbr"/>
+            </connections>
+            <point key="canvasLocation" x="4" y="19"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icons8-heart-outline-50" width="50" height="50"/>
+    </resources>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="WishlistCollectionViewCell" id="gTV-IL-0wX" customClass="WishlistCollectionViewCell" customModule="MyRealTrip" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="319" height="202"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="319" height="202"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KH6-id-BTh">
+                        <rect key="frame" x="0.0" y="0.0" width="319" height="160"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54m-IH-WkE">
+                        <rect key="frame" x="0.0" y="161" width="319" height="41"/>
+                        <string key="text">Title
+언제가시나요?</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="54m-IH-WkE" firstAttribute="top" secondItem="KH6-id-BTh" secondAttribute="bottom" constant="1" id="4D5-F7-dr0" userLabel="Title Label.top = Image View.bottom"/>
+                <constraint firstItem="54m-IH-WkE" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="HDO-H7-w9A"/>
+                <constraint firstItem="54m-IH-WkE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="JqE-9Q-nds"/>
+                <constraint firstAttribute="trailing" secondItem="54m-IH-WkE" secondAttribute="trailing" id="Rup-A6-mSV"/>
+                <constraint firstItem="KH6-id-BTh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="VEJ-L2-atz"/>
+                <constraint firstItem="KH6-id-BTh" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="X1E-E8-rUa"/>
+                <constraint firstAttribute="bottom" secondItem="54m-IH-WkE" secondAttribute="bottom" id="niI-Sz-Z7B"/>
+                <constraint firstAttribute="trailing" secondItem="KH6-id-BTh" secondAttribute="trailing" id="ym1-kK-xEg"/>
+                <constraint firstItem="KH6-id-BTh" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="zAf-jb-Hzn"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="319" height="202"/>
+            <connections>
+                <outlet property="imageView" destination="KH6-id-BTh" id="dMX-vL-rg9"/>
+                <outlet property="titleLabel" destination="54m-IH-WkE" id="Sz5-bx-Zgn"/>
+            </connections>
+            <point key="canvasLocation" x="-54.5" y="81"/>
+        </collectionViewCell>
+    </objects>
+</document>

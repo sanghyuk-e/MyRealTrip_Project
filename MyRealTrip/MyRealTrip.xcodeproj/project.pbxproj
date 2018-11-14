@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		303F274C20F758D500C27555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303F274B20F758D500C27555 /* AppDelegate.swift */; };
+		303F275120F758D500C27555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303F274F20F758D500C27555 /* Main.storyboard */; };
+		303F275320F758D500C27555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303F275220F758D500C27555 /* Assets.xcassets */; };
+		303F275620F758D500C27555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 303F275420F758D500C27555 /* LaunchScreen.storyboard */; };
+		82F8ED346625336EE713B153 /* Pods_MyRealTrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBFEBE8F36FDCA3579485246 /* Pods_MyRealTrip.framework */; };
+		DB1913B1211B894000F36EFF /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1913B0211B894000F36EFF /* ImageService.swift */; };
+		DB1913CA211C369000F36EFF /* exampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1913C9211C369000F36EFF /* exampleViewController.swift */; };
+		DB1913D8211DBD2700F36EFF /* FourthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB1913D6211DBD2700F36EFF /* FourthTableViewCell.swift */; };
+		DB1913D9211DBD2700F36EFF /* FourthTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB1913D7211DBD2700F36EFF /* FourthTableViewCell.xib */; };
+		DB388A462129B9FB005DE092 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB388A452129B9FB005DE092 /* Alamofire.framework */; };
+		DB388A482129BA00005DE092 /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB388A472129BA00005DE092 /* Kingfisher.framework */; };
+		DB91E889211F1BF300A05771 /* TourTicketList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB91E888211F1BF300A05771 /* TourTicketList.swift */; };
+		DBBE1E0A2112CA9D00695EE4 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DBBE1E092112CA9D00695EE4 /* data.json */; };
+		DBBE1E0C2112CD8500695EE4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE1E0B2112CD8500695EE4 /* SearchViewController.swift */; };
+		DBBE1E0E2112CEA300695EE4 /* Tour.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBBE1E0D2112CEA300695EE4 /* Tour.storyboard */; };
+		DBBE1E182112E07F00695EE4 /* TravelDestinationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE1E162112E07F00695EE4 /* TravelDestinationTableViewCell.swift */; };
+		DBBE1E192112E07F00695EE4 /* TravelDestinationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBBE1E172112E07F00695EE4 /* TravelDestinationTableViewCell.xib */; };
+		DBBE1E1C2112E25600695EE4 /* FirstCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE1E1A2112E25600695EE4 /* FirstCollectionViewCell.swift */; };
+		DBBE1E1D2112E25600695EE4 /* FirstCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBBE1E1B2112E25600695EE4 /* FirstCollectionViewCell.xib */; };
+		DBBE1E1F2112EFE300695EE4 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBE1E1E2112EFE200695EE4 /* Card.swift */; };
+		DBBE1E242112F15500695EE4 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBBE1E232112F15500695EE4 /* Info.plist */; };
+		DBC80E102125072B004E71C8 /* SecondCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC80E0E2125072B004E71C8 /* SecondCollectionViewCell.swift */; };
+		DBC80E112125072B004E71C8 /* SecondCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBC80E0F2125072B004E71C8 /* SecondCollectionViewCell.xib */; };
+		DBD2D40F212575100016B4C4 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2D40E212575100016B4C4 /* CardModel.swift */; };
+		DBD2D4112125751A0016B4C4 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2D4102125751A0016B4C4 /* Network.swift */; };
+		DBD2D41F212576980016B4C4 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBD2D41D212576980016B4C4 /* CardCollectionViewCell.xib */; };
+		DBD2D420212576980016B4C4 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2D41E212576980016B4C4 /* CardCollectionViewCell.swift */; };
+		DBD2D4242126D7310016B4C4 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = DBD2D4232126D4960016B4C4 /* sample.json */; };
+		DBD2D42A21282D330016B4C4 /* WishListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2D42921282D330016B4C4 /* WishListViewController.swift */; };
+		DBE0AD8C212BB52300612982 /* WishlistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0AD8A212BB52300612982 /* WishlistCollectionViewCell.swift */; };
+		DBE0AD8D212BB52300612982 /* WishlistCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBE0AD8B212BB52300612982 /* WishlistCollectionViewCell.xib */; };
+		DBE0AD8F212C688800612982 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0AD8E212C688800612982 /* ProductModel.swift */; };
+		DBE0AD95212D532400612982 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0AD93212D532400612982 /* Constants.swift */; };
+		DBE0AD96212D532400612982 /* urlList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0AD94212D532400612982 /* urlList.swift */; };
+		DBE0AD9D212D53B400612982 /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0AD99212D53B400612982 /* SearchBarViewController.swift */; };
+		DBE0AD9F212D53B400612982 /* TourTicketTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0AD9B212D53B400612982 /* TourTicketTableViewController.swift */; };
+		DBE0ADA0212D57FD00612982 /* TourCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE0AD9A212D53B400612982 /* TourCollectionViewController.swift */; };
+		DBF2BAB12115792F008E98F0 /* ADTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF2BAAF2115792F008E98F0 /* ADTableViewCell.swift */; };
+		DBF2BAB22115792F008E98F0 /* ADTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBF2BAB02115792F008E98F0 /* ADTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		303F274820F758D500C27555 /* MyRealTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyRealTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		303F274B20F758D500C27555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		303F275020F758D500C27555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		303F275220F758D500C27555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		303F275520F758D500C27555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EAFF90FD0056DDD35141699 /* Pods-MyRealTrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.release.xcconfig"; sourceTree = "<group>"; };
+		99C144D8AA331F3479DC00D2 /* Pods-MyRealTrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyRealTrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip.debug.xcconfig"; sourceTree = "<group>"; };
+		CBFEBE8F36FDCA3579485246 /* Pods_MyRealTrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyRealTrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB1913B0211B894000F36EFF /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		DB1913C9211C369000F36EFF /* exampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exampleViewController.swift; sourceTree = "<group>"; };
+		DB1913D6211DBD2700F36EFF /* FourthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthTableViewCell.swift; sourceTree = "<group>"; };
+		DB1913D7211DBD2700F36EFF /* FourthTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FourthTableViewCell.xib; sourceTree = "<group>"; };
+		DB388A452129B9FB005DE092 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB388A472129BA00005DE092 /* Kingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Kingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB91E888211F1BF300A05771 /* TourTicketList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTicketList.swift; sourceTree = "<group>"; };
+		DBBE1E092112CA9D00695EE4 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		DBBE1E0B2112CD8500695EE4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		DBBE1E0D2112CEA300695EE4 /* Tour.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tour.storyboard; sourceTree = "<group>"; };
+		DBBE1E162112E07F00695EE4 /* TravelDestinationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelDestinationTableViewCell.swift; sourceTree = "<group>"; };
+		DBBE1E172112E07F00695EE4 /* TravelDestinationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TravelDestinationTableViewCell.xib; sourceTree = "<group>"; };
+		DBBE1E1A2112E25600695EE4 /* FirstCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstCollectionViewCell.swift; sourceTree = "<group>"; };
+		DBBE1E1B2112E25600695EE4 /* FirstCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstCollectionViewCell.xib; sourceTree = "<group>"; };
+		DBBE1E1E2112EFE200695EE4 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		DBBE1E232112F15500695EE4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyRealTrip/Info.plist; sourceTree = SOURCE_ROOT; };
+		DBC80E0E2125072B004E71C8 /* SecondCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCollectionViewCell.swift; sourceTree = "<group>"; };
+		DBC80E0F2125072B004E71C8 /* SecondCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondCollectionViewCell.xib; sourceTree = "<group>"; };
+		DBD2D40E212575100016B4C4 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		DBD2D4102125751A0016B4C4 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		DBD2D412212575650016B4C4 /* TourCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourCollectionViewController.swift; sourceTree = "<group>"; };
+		DBD2D41D212576980016B4C4 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
+		DBD2D41E212576980016B4C4 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		DBD2D4232126D4960016B4C4 /* sample.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		DBD2D4272126E8CC0016B4C4 /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		DBD2D42921282D330016B4C4 /* WishListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListViewController.swift; sourceTree = "<group>"; };
+		DBE0AD8A212BB52300612982 /* WishlistCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistCollectionViewCell.swift; sourceTree = "<group>"; };
+		DBE0AD8B212BB52300612982 /* WishlistCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WishlistCollectionViewCell.xib; sourceTree = "<group>"; };
+		DBE0AD8E212C688800612982 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		DBE0AD90212D3F2400612982 /* TourTicketTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTicketTableViewController.swift; sourceTree = "<group>"; };
+		DBE0AD93212D532400612982 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		DBE0AD94212D532400612982 /* urlList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = urlList.swift; sourceTree = "<group>"; };
+		DBE0AD98212D53B400612982 /* exampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = exampleViewController.swift; sourceTree = "<group>"; };
+		DBE0AD99212D53B400612982 /* SearchBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		DBE0AD9A212D53B400612982 /* TourCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourCollectionViewController.swift; sourceTree = "<group>"; };
+		DBE0AD9B212D53B400612982 /* TourTicketTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TourTicketTableViewController.swift; sourceTree = "<group>"; };
+		DBF2BAAF2115792F008E98F0 /* ADTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADTableViewCell.swift; sourceTree = "<group>"; };
+		DBF2BAB02115792F008E98F0 /* ADTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ADTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		303F274520F758D500C27555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB388A482129BA00005DE092 /* Kingfisher.framework in Frameworks */,
+				DB388A462129B9FB005DE092 /* Alamofire.framework in Frameworks */,
+				82F8ED346625336EE713B153 /* Pods_MyRealTrip.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		303F273F20F758D500C27555 = {
+			isa = PBXGroup;
+			children = (
+				303F274A20F758D500C27555 /* MyRealTrip */,
+				303F274920F758D500C27555 /* Products */,
+				3B0053A2E183CA568F8DBF97 /* Pods */,
+				70005DA1521848B4B415213C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		303F274920F758D500C27555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				303F274820F758D500C27555 /* MyRealTrip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		303F274A20F758D500C27555 /* MyRealTrip */ = {
+			isa = PBXGroup;
+			children = (
+				DB6FDB58210DD83F002DCC89 /* Sources */,
+				DB6FDB5F210DD910002DCC89 /* Resources */,
+				DB6FDB57210DD82E002DCC89 /* Storyboard */,
+				DB6FDB60210DD91A002DCC89 /* Supporting Files */,
+			);
+			path = MyRealTrip;
+			sourceTree = "<group>";
+		};
+		3B0053A2E183CA568F8DBF97 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99C144D8AA331F3479DC00D2 /* Pods-MyRealTrip.debug.xcconfig */,
+				7EAFF90FD0056DDD35141699 /* Pods-MyRealTrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		70005DA1521848B4B415213C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB388A472129BA00005DE092 /* Kingfisher.framework */,
+				DB388A452129B9FB005DE092 /* Alamofire.framework */,
+				CBFEBE8F36FDCA3579485246 /* Pods_MyRealTrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB6FDB57210DD82E002DCC89 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				303F274F20F758D500C27555 /* Main.storyboard */,
+				DBBE1E0D2112CEA300695EE4 /* Tour.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		DB6FDB58210DD83F002DCC89 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				303F274B20F758D500C27555 /* AppDelegate.swift */,
+				DBE0AD92212D532400612982 /* Utility */,
+				DB6FDB5A210DD87F002DCC89 /* Model */,
+				DB6FDB5B210DD885002DCC89 /* Service */,
+				DB6FDB5E210DD8A4002DCC89 /* View */,
+				DB6FDB5D210DD89C002DCC89 /* ViewController */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		DB6FDB5A210DD87F002DCC89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DBBE1E1E2112EFE200695EE4 /* Card.swift */,
+				DBD2D40E212575100016B4C4 /* CardModel.swift */,
+				DBE0AD8E212C688800612982 /* ProductModel.swift */,
+				DB91E888211F1BF300A05771 /* TourTicketList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DB6FDB5B210DD885002DCC89 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				DBBE1E092112CA9D00695EE4 /* data.json */,
+				DBD2D4232126D4960016B4C4 /* sample.json */,
+				DBD2D4102125751A0016B4C4 /* Network.swift */,
+				DB1913B0211B894000F36EFF /* ImageService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		DB6FDB5D210DD89C002DCC89 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DBD2D415212575A90016B4C4 /* Main */,
+				DBD2D416212575B00016B4C4 /* Tour */,
+				DBE0AD97212D53B400612982 /* Tour */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DB6FDB5E210DD8A4002DCC89 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBBE1E162112E07F00695EE4 /* TravelDestinationTableViewCell.swift */,
+				DBBE1E172112E07F00695EE4 /* TravelDestinationTableViewCell.xib */,
+				DBF2BAAF2115792F008E98F0 /* ADTableViewCell.swift */,
+				DBF2BAB02115792F008E98F0 /* ADTableViewCell.xib */,
+				DB1913D6211DBD2700F36EFF /* FourthTableViewCell.swift */,
+				DB1913D7211DBD2700F36EFF /* FourthTableViewCell.xib */,
+				DBBE1E112112DBEE00695EE4 /* NestedCells */,
+				DBD2D4142125757E0016B4C4 /* Product */,
+				DBE0AD8A212BB52300612982 /* WishlistCollectionViewCell.swift */,
+				DBE0AD8B212BB52300612982 /* WishlistCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DB6FDB5F210DD910002DCC89 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				303F275220F758D500C27555 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DB6FDB60210DD91A002DCC89 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				303F275420F758D500C27555 /* LaunchScreen.storyboard */,
+				DBBE1E232112F15500695EE4 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DBBE1E112112DBEE00695EE4 /* NestedCells */ = {
+			isa = PBXGroup;
+			children = (
+				DBBE1E1A2112E25600695EE4 /* FirstCollectionViewCell.swift */,
+				DBBE1E1B2112E25600695EE4 /* FirstCollectionViewCell.xib */,
+				DBC80E0E2125072B004E71C8 /* SecondCollectionViewCell.swift */,
+				DBC80E0F2125072B004E71C8 /* SecondCollectionViewCell.xib */,
+			);
+			path = NestedCells;
+			sourceTree = "<group>";
+		};
+		DBD2D4142125757E0016B4C4 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				DBD2D41E212576980016B4C4 /* CardCollectionViewCell.swift */,
+				DBD2D41D212576980016B4C4 /* CardCollectionViewCell.xib */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		DBD2D415212575A90016B4C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DBBE1E0B2112CD8500695EE4 /* SearchViewController.swift */,
+				DBD2D42921282D330016B4C4 /* WishListViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		DBD2D416212575B00016B4C4 /* Tour */ = {
+			isa = PBXGroup;
+			children = (
+				DB1913C9211C369000F36EFF /* exampleViewController.swift */,
+				DBD2D412212575650016B4C4 /* TourCollectionViewController.swift */,
+				DBD2D4272126E8CC0016B4C4 /* SearchBarViewController.swift */,
+				DBE0AD90212D3F2400612982 /* TourTicketTableViewController.swift */,
+			);
+			path = Tour;
+			sourceTree = "<group>";
+		};
+		DBE0AD92212D532400612982 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				DBE0AD93212D532400612982 /* Constants.swift */,
+				DBE0AD94212D532400612982 /* urlList.swift */,
+			);
+			name = Utility;
+			path = MyRealTrip/Sources/Utility;
+			sourceTree = SOURCE_ROOT;
+		};
+		DBE0AD97212D53B400612982 /* Tour */ = {
+			isa = PBXGroup;
+			children = (
+				DBE0AD98212D53B400612982 /* exampleViewController.swift */,
+				DBE0AD99212D53B400612982 /* SearchBarViewController.swift */,
+				DBE0AD9A212D53B400612982 /* TourCollectionViewController.swift */,
+				DBE0AD9B212D53B400612982 /* TourTicketTableViewController.swift */,
+			);
+			path = Tour;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		303F274720F758D500C27555 /* MyRealTrip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 303F275A20F758D500C27555 /* Build configuration list for PBXNativeTarget "MyRealTrip" */;
+			buildPhases = (
+				05B031E50DF5BAD96A338760 /* [CP] Check Pods Manifest.lock */,
+				303F274420F758D500C27555 /* Sources */,
+				303F274520F758D500C27555 /* Frameworks */,
+				303F274620F758D500C27555 /* Resources */,
+				62B17D10FE8B876740BAAC2A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyRealTrip;
+			productName = MyRealTrip;
+			productReference = 303F274820F758D500C27555 /* MyRealTrip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		303F274020F758D500C27555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = sanghyuk;
+				TargetAttributes = {
+					303F274720F758D500C27555 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 303F274320F758D500C27555 /* Build configuration list for PBXProject "MyRealTrip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 303F273F20F758D500C27555;
+			productRefGroup = 303F274920F758D500C27555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				303F274720F758D500C27555 /* MyRealTrip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		303F274620F758D500C27555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBBE1E0E2112CEA300695EE4 /* Tour.storyboard in Resources */,
+				303F275620F758D500C27555 /* LaunchScreen.storyboard in Resources */,
+				DBBE1E242112F15500695EE4 /* Info.plist in Resources */,
+				DB1913D9211DBD2700F36EFF /* FourthTableViewCell.xib in Resources */,
+				DBD2D4242126D7310016B4C4 /* sample.json in Resources */,
+				303F275320F758D500C27555 /* Assets.xcassets in Resources */,
+				DBBE1E1D2112E25600695EE4 /* FirstCollectionViewCell.xib in Resources */,
+				303F275120F758D500C27555 /* Main.storyboard in Resources */,
+				DBC80E112125072B004E71C8 /* SecondCollectionViewCell.xib in Resources */,
+				DBE0AD8D212BB52300612982 /* WishlistCollectionViewCell.xib in Resources */,
+				DBBE1E192112E07F00695EE4 /* TravelDestinationTableViewCell.xib in Resources */,
+				DBBE1E0A2112CA9D00695EE4 /* data.json in Resources */,
+				DBD2D41F212576980016B4C4 /* CardCollectionViewCell.xib in Resources */,
+				DBF2BAB22115792F008E98F0 /* ADTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B031E50DF5BAD96A338760 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyRealTrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62B17D10FE8B876740BAAC2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/ParallaxHeader/ParallaxHeader.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParallaxHeader.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyRealTrip/Pods-MyRealTrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		303F274420F758D500C27555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBE0ADA0212D57FD00612982 /* TourCollectionViewController.swift in Sources */,
+				DBE0AD9F212D53B400612982 /* TourTicketTableViewController.swift in Sources */,
+				DBE0AD95212D532400612982 /* Constants.swift in Sources */,
+				DBC80E102125072B004E71C8 /* SecondCollectionViewCell.swift in Sources */,
+				DBBE1E0C2112CD8500695EE4 /* SearchViewController.swift in Sources */,
+				DBBE1E182112E07F00695EE4 /* TravelDestinationTableViewCell.swift in Sources */,
+				DBBE1E1F2112EFE300695EE4 /* Card.swift in Sources */,
+				DBE0AD8F212C688800612982 /* ProductModel.swift in Sources */,
+				DBD2D40F212575100016B4C4 /* CardModel.swift in Sources */,
+				DB91E889211F1BF300A05771 /* TourTicketList.swift in Sources */,
+				DBD2D420212576980016B4C4 /* CardCollectionViewCell.swift in Sources */,
+				DB1913D8211DBD2700F36EFF /* FourthTableViewCell.swift in Sources */,
+				DB1913CA211C369000F36EFF /* exampleViewController.swift in Sources */,
+				DBBE1E1C2112E25600695EE4 /* FirstCollectionViewCell.swift in Sources */,
+				DBE0AD9D212D53B400612982 /* SearchBarViewController.swift in Sources */,
+				DBD2D42A21282D330016B4C4 /* WishListViewController.swift in Sources */,
+				DBF2BAB12115792F008E98F0 /* ADTableViewCell.swift in Sources */,
+				DB1913B1211B894000F36EFF /* ImageService.swift in Sources */,
+				DBD2D4112125751A0016B4C4 /* Network.swift in Sources */,
+				DBE0AD96212D532400612982 /* urlList.swift in Sources */,
+				303F274C20F758D500C27555 /* AppDelegate.swift in Sources */,
+				DBE0AD8C212BB52300612982 /* WishlistCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		303F274F20F758D500C27555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303F275020F758D500C27555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		303F275420F758D500C27555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				303F275520F758D500C27555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		303F275820F758D500C27555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		303F275920F758D500C27555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		303F275B20F758D500C27555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99C144D8AA331F3479DC00D2 /* Pods-MyRealTrip.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = MyRealTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.sanghyuk.example.MyRealTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		303F275C20F758D500C27555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EAFF90FD0056DDD35141699 /* Pods-MyRealTrip.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G4MM77V7NH;
+				INFOPLIST_FILE = MyRealTrip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.sanghyuk.example.MyRealTrip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		303F274320F758D500C27555 /* Build configuration list for PBXProject "MyRealTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303F275820F758D500C27555 /* Debug */,
+				303F275920F758D500C27555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		303F275A20F758D500C27555 /* Build configuration list for PBXNativeTarget "MyRealTrip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				303F275B20F758D500C27555 /* Debug */,
+				303F275C20F758D500C27555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 303F274020F758D500C27555 /* Project object */;
+}

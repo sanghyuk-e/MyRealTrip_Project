@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="SecondCollectionViewCell" id="gTV-IL-0wX" customClass="SecondCollectionViewCell" customModule="MyRealTrip" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jny-Uv-8rL">
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="cjF-t6-NAr"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="700" text="titleLabel" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcN-zl-Ilh">
+                        <rect key="frame" x="0.0" y="131" width="200" height="43"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="priceLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="QRL-1f-Wrh">
+                        <rect key="frame" x="0.0" y="179" width="200" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="categoryLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="9VW-bc-D0A">
+                        <rect key="frame" x="0.0" y="105" width="200" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e24-mJ-X5S">
+                        <rect key="frame" x="170" y="0.0" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="aT6-w5-N8J"/>
+                            <constraint firstAttribute="height" constant="30" id="k0G-2I-fkh"/>
+                        </constraints>
+                        <state key="normal" image="icons8-heart-outline-50"/>
+                        <connections>
+                            <action selector="heartButton:" destination="gTV-IL-0wX" eventType="touchUpInside" id="WKa-vj-NMr"/>
+                        </connections>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="QRL-1f-Wrh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="0xe-jR-Tz6"/>
+                <constraint firstAttribute="trailing" secondItem="Jny-Uv-8rL" secondAttribute="trailing" id="0yg-tx-NFl"/>
+                <constraint firstItem="jcN-zl-Ilh" firstAttribute="top" secondItem="9VW-bc-D0A" secondAttribute="bottom" constant="5" id="58J-19-xnC"/>
+                <constraint firstItem="9VW-bc-D0A" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="QZB-c7-Ngw"/>
+                <constraint firstItem="QRL-1f-Wrh" firstAttribute="top" secondItem="jcN-zl-Ilh" secondAttribute="bottom" constant="5" id="So4-id-Shp"/>
+                <constraint firstItem="Jny-Uv-8rL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="WTu-HO-nhm"/>
+                <constraint firstItem="e24-mJ-X5S" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Xcc-TP-Jak"/>
+                <constraint firstItem="9VW-bc-D0A" firstAttribute="top" secondItem="Jny-Uv-8rL" secondAttribute="bottom" constant="5" id="ayP-dg-qnt"/>
+                <constraint firstAttribute="trailing" secondItem="e24-mJ-X5S" secondAttribute="trailing" id="hiy-If-nWJ"/>
+                <constraint firstItem="jcN-zl-Ilh" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="jAR-Ry-o5x"/>
+                <constraint firstItem="QRL-1f-Wrh" firstAttribute="top" secondItem="jcN-zl-Ilh" secondAttribute="bottom" constant="5" id="l6y-aF-WLA"/>
+                <constraint firstAttribute="trailing" secondItem="jcN-zl-Ilh" secondAttribute="trailing" id="mgx-97-649"/>
+                <constraint firstAttribute="bottom" secondItem="QRL-1f-Wrh" secondAttribute="bottom" id="tRm-oZ-Uxx"/>
+                <constraint firstAttribute="trailing" secondItem="QRL-1f-Wrh" secondAttribute="trailing" id="urA-cZ-ZfC"/>
+                <constraint firstAttribute="trailing" secondItem="9VW-bc-D0A" secondAttribute="trailing" id="xF3-Im-rcA"/>
+                <constraint firstItem="Jny-Uv-8rL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ysq-de-tFg"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="254" height="283"/>
+            <connections>
+                <outlet property="categoryLabel" destination="9VW-bc-D0A" id="Aot-Qv-wzH"/>
+                <outlet property="heartButton" destination="e24-mJ-X5S" id="meU-qc-kct"/>
+                <outlet property="priceLabel" destination="QRL-1f-Wrh" id="dTv-0g-FPI"/>
+                <outlet property="thumbnail" destination="Jny-Uv-8rL" id="tb4-aP-akR"/>
+                <outlet property="titleLabel" destination="jcN-zl-Ilh" id="DBE-ko-fWL"/>
+            </connections>
+            <point key="canvasLocation" x="128" y="170"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icons8-heart-outline-50" width="50" height="50"/>
+    </resources>
+</document>

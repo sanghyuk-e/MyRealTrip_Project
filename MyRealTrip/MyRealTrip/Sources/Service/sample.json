@@ -1,0 +1,39 @@
+
+[
+ {
+ "name": "Barcelona",
+ "image": "barcelona"
+ },
+ {
+ "name": "Budapest",
+ "image": "budapest"
+ },
+ {
+ "name": "HongKong",
+ "image": "hongkong"
+ },
+ {
+ "name": "London",
+ "image": "london"
+ },
+ {
+ "name": "Osaka",
+ "image": "osaka"
+ },
+ {
+ "name": "Paris",
+ "image": "paris"
+ },
+ {
+ "name": "Roma",
+ "image": "roma"
+ },
+ {
+ "name": "Singapore",
+ "image": "singapore"
+ },
+ {
+ "name": "Taipei",
+ "image": "taipei"
+ }
+]
